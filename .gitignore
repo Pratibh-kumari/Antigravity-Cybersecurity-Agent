@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+config/scope.json
+evidence/*
+!evidence/.gitkeep
+reports/*
+!reports/.gitkeep
+.env

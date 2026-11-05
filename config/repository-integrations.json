@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-11-06",
+  "upstream": {
+    "skills_library": {
+      "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "branch": "main",
+      "observed_skill_directories": 818,
+      "license": "Apache-2.0",
+      "integration": "Curated patterns and links; do not vendor the full library."
+    },
+    "payload_reference": {
+      "repository": "https://github.com/Pratibh-kumari/PayloadsAllTheThings",
+      "branch": "master",
+      "license": "MIT",
+      "integration": "Topic references for approved lab-only validation. No automatic execution."
+    }
+  },
+  "skill_patterns": [
+    "analyzing-network-traffic-with-wireshark",
+    "analyzing-network-traffic-for-incidents",
+    "analyzing-disk-image-with-autopsy",
+    "analyzing-memory-dumps-with-volatility",
+    "analyzing-indicators-of-compromise",
+    "analyzing-linux-system-artifacts",
+    "analyzing-api-gateway-access-logs"
+  ],
+  "payload_topics": [
+    {
+      "id": "sqli",
+      "folder": "SQL Injection",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "xss",
+      "folder": "XSS Injection",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/XSS%20Injection/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "ssrf",
+      "folder": "Server Side Request Forgery",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "command-injection",
+      "folder": "Command Injection",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/Command%20Injection/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "directory-traversal",
+      "folder": "Directory Traversal",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/Directory%20Traversal/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "xxe",
+      "folder": "XXE Injection",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/XXE%20Injection/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "idor",
+      "folder": "Insecure Direct Object References",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/Insecure%20Direct%20Object%20References/README.md",
+      "mode": "reference-only"
+    },
+    {
+      "id": "csrf",
+      "folder": "Cross-Site Request Forgery",
+      "url": "https://github.com/Pratibh-kumari/PayloadsAllTheThings/blob/master/Cross-Site%20Request%20Forgery/README.md",
+      "mode": "reference-only"
+    }
+  ]
+}

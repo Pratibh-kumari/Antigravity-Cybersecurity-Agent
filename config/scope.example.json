@@ -1,0 +1,7 @@
+{
+  "authorized_cidrs": [
+    "192.168.56.0/24"
+  ],
+  "notes": "Replace with networks you own or are explicitly authorized to assess. Example only.",
+  "require_private_address": true
+}
